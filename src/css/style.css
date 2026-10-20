@@ -6,9 +6,42 @@
     --secondary-text: #E5E7EB;
     --btn-background: #3882F6;
     --info: #1F2937;
-    
+
 }
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: var(--dark-bk);
+    margin: 0;
+    padding: 0;
+}
+
+/* ------ Header ------ */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 900;
+    color: var(--primary-text);
+}
+
+.header-list{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.list-item a{
+    color: var(--secondary-text);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.list-item a:hover{
+    color: var(--primary-text);
+    text-decoration: underline;
 }
