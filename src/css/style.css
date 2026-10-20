@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-h1{
+:root{
+    --dark-bk: #1F2937;
+    --primary-text: #F9FAF8;
+    --secondary-text: #E5E7EB;
+    --btn-background: #3882F6;
+    --info: #1F2937;
+    
+}
+
+body{
     font-family: 'Roboto', sans-serif;
 }
