@@ -87,3 +87,27 @@ body{
     object-fit: cover;
     object-position: center;
 }
+
+
+/* ------ Info ------ */
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary-text);
+}
+
+.img-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mini-container{
+    max-width: 300px;
+    text-align: center;
+}
+
+.info-img{
+    border: 4px solid var(--btn-background);
+    border-radius: 15px;
+}
