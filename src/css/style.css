@@ -147,3 +147,43 @@ body{
 .author{
     font-weight: bold;
 }
+
+.call-to-action{
+    background-color: var(--primary-text);
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box{
+    background-color: var(--btn-background);
+    border-radius: 15px;
+    width: 60%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--primary-text);
+}
+
+.blue-box h3{
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.blue-box p{
+    margin: 0;
+    padding: 0;
+}
+
+.call-btn{
+    background-color: var(--btn-background);
+    border: 3px solid var(--primary-text);
+    color: var(--primary-text);
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
