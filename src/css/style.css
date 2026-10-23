@@ -148,6 +148,8 @@ body{
     font-weight: bold;
 }
 
+
+/* ------ Call to action ------ */
 .call-to-action{
     background-color: var(--primary-text);
     padding: 80px;
@@ -186,4 +188,16 @@ body{
     padding: 10px 20px;
     font-size: 18px;
     font-weight: 700;
+}
+
+/* ------ Footer ------ */
+
+.footer{
+    margin: 50px;
+}
+
+.footer p{
+    text-align: center;
+    font-size: 18px;
+    color: var(--primary-text);
 }
