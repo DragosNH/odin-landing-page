@@ -82,6 +82,10 @@ body{
     color: var(--primary-text);
 }
 
+.main-btn:hover{
+    background-color: color-mix(in srgb, var(--btn-background) 80%, lightblue);
+}
+
 .hero-img{
     width: 600px; height: 250px;
     object-fit: cover;
@@ -188,6 +192,10 @@ body{
     padding: 10px 20px;
     font-size: 18px;
     font-weight: 700;
+}
+
+.call-btn:hover{
+    background-color: color-mix(in srgb, var(--btn-background) 80%, lightblue);;
 }
 
 /* ------ Footer ------ */
